@@ -1,7 +1,9 @@
+import './index.scss'
+
 import * as React from 'react';
 
 export default function Page1() {
   return (
-    <div>page1</div>
-  )
+    <div className="main">page1</div>
+  ) 
 }
